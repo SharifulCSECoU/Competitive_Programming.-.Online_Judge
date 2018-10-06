@@ -19,6 +19,7 @@ void sieve()
 
 	j = k = 1;
 	printf("2\n");
+
 	for(i=3; i<MAX; i+=2)
 	{
 		if(!ifc(i))
