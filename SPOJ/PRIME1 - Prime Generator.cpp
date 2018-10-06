@@ -1,7 +1,6 @@
-//PRIME1 - Prime Generator.cpp
 #include<bits/stdc++.h>
 using namespace std;
- 
+
 bool checkprime (long int num)
 {
     if (num <=1)
@@ -14,9 +13,9 @@ bool checkprime (long int num)
     {
         bool prime = true;
         int divisor = 3;
- 
+
         int upperLimit =sqrt(num) +1;
- 
+
         while (divisor <= upperLimit)
         {
             if (num % divisor == 0)
@@ -26,22 +25,22 @@ bool checkprime (long int num)
         return prime;
     }
 }
- 
+
 int main()
 {
-    int a,b,i,n,j;
-    scanf("%d",&n);
+    int a, b, i, n, j;
+    scanf("%d", &n);
     printf("\n");
- 
-    for(i=0;i<n;i++)
+
+    for(i=0; i<n; i++)
     {
-        scanf("%d %d",&a,&b);
-        for(j=a;j<=b;j++)
+        scanf("%d %d", &a, &b);
+        for(j=a; j<=b; j++)
         {
             if(checkprime(j))
-                printf("%d\n",j);
- 
+                printf("%d\n", j);
         }
+
         printf("\n");
     }
     return 0;
