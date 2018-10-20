@@ -1,10 +1,10 @@
 /*
-    ---------------------------------------------------
-  	|!		         MD. SHARIFUL ISLAM	             !|
-  	|!	       Computer Science & Engineering  	     !|
-  	|!		         Comilla University		         !|
-  	|!		             Bangladesh   		         !|
-    ---------------------------------------------------
+  	--------------------------------------------------
+  	|!		MD. SHARIFUL ISLAM		!|
+  	|!	  Computer Science & Engineering  	!|
+  	|!		Comilla University		!|
+  	|!		    Bangladesh   		!|
+  	--------------------------------------------------
 */
 
 #include<bits/stdc++.h>
